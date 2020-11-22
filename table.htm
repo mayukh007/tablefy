@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head><title>tablify</title>
+	<meta charset  ="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" href="https://image.flaticon.com/icons/svg/25/25617.svg">
+	<script src = "script.js"></script>
+</head>
+<body>
+	<header class="container1">
+		<i class="fa fa-table fa-2x" aria-hidden="true"></i>
+
+		<h1>TABLIFY</h1>
+		<sub>solution for your table problems</sub>
+	</header>
+	<div class = "container2" id = "container2">
+		<form>
+		<label id = "col"><h2>ENTER NO. OF COLUMNS</h2></label>
+				<input id="NFC" type="text" name = "COLUMNS" placeholder="enter number of columns">
+	</form>
+	<button id="button" onclick = "start()"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>	
+</div>
+<table id ="table">
+</table>
+<button id = "but2" onclick="addrow()"><i class="fa fa-plus fa-lg" aria-hidden="true"></i></button>
+<button id = "but3" onclick="addvalue()">add</button>
+<button id = "but4" onclick="download('table')">download</button>
+</body>
+</html>	
+			
